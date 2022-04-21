@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Zachary Askins Portfolio</title>
+  </head>
+  <body>
+    <div class="container">
+      <img src="media/zach_pic.jpg" width="400px">
+      <p>
+        Hi, I’m Zach, and I love programming. I’m a lifelong learner and spend my free time expressing myself through software development. I’ve spent years honing my craft, so check out my favorite projects below to see what I can do.
+      </p>
+
+      <h2>Projects</h2>
+      <div>
+        <h3>Game Engine</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/rrz8zkYpiGo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p>After reading Game Engine Architecture, I felt compelled to apply what I learned and make my own 3D game engine. Written entirely in C++, I followed many industry best practices to create an engine that is fast and efficient. In addition, I developed a small game to make sure I had created all the necessary features and that they all worked together.</p>
+        <p>Highlights of the engine include:</p>
+        <ul>
+          <li>An efficient and custom Entity Component System <a href="https://github.com/sequoian/game-engine/blob/master/Source/Entity.h">[Entity.h]</a>, <a href="https://github.com/sequoian/game-engine/blob/master/Source/ComponentSystem.h">[ComponentSystem.h]</a></li>
+          <li>A pool structure allowing for fast iteration of objects through contiguous memory <a href="https://github.com/sequoian/game-engine/blob/master/Source/CompactPool.h">[CompactPool.h]</a></li>
+          <li>Rendering through direct use of the DirectX 11 API <a href="https://github.com/sequoian/game-engine/blob/master/Source/Graphics.cpp">[Graphics.cpp]</a></li>
+          <li>Custom HLSL shader implementing Phong Shading <a href="https://github.com/sequoian/game-engine/blob/master/Source/Shaders/tutorial6.hlsl">[tutorial6.hlsl]</a></li>
+          <li>Physics using the Bullet Physics Engine API <a href="https://github.com/sequoian/game-engine/blob/master/Source/Physics.cpp">[Physics.cpp]</a></li>
+          <li>A small platformer combining all the features of the engine <a href="https://github.com/sequoian/game-engine/blob/master/Source/ThirdPersonApp.h">[ThirdPersonApp.h]</a></li>
+        </ul>
+        <a href="https://github.com/sequoian/game-engine">Full Source Code</a>
+        <a href="https://sequoian.itch.io/game-engine-platformer?password=employerview">Download Demo</a>
+      </div>
+      <h2>Contact</h2>
+      <p>Want to make something awesome together? Reach out to me at my <a href="mailto:zach.askins@gmail.com">email</a> or my <a href="https://www.linkedin.com/in/zachary-askins/">LinkedIn</a> page.</p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
