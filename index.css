@@ -1,0 +1,21 @@
+.project {
+    background-color: lightcyan;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+#face {
+    max-width: 100%;
+}
+
+iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+}
+
+@media (min-width: 768px) {
+    iframe {
+        width: 560px;
+        height: 315px;
+    }
+}
