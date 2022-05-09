@@ -1,5 +1,5 @@
 .project {
-    margin: 20px 0;
+    margin-bottom: 50px;
 }
 
 #face {
@@ -13,18 +13,15 @@
 iframe {
     width: 100%;
     aspect-ratio: 16 / 9;
+    max-width: 560px;
+    max-height: 315px;
 }
 
 .btn {
     margin-bottom: 5px;
 }
 
-@media (min-width: 768px) {
-    iframe {
-        width: 560px;
-        height: 315px;
-    }
-    
+@media (min-width: 768px) { 
     #hero {
         display: flex;
         align-items: center;
@@ -44,5 +41,18 @@ iframe {
 
     #greeting {
         font-size: 22px;
+    }
+
+    .project-content {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .column {
+        flex: 50%;
+    }
+
+    iframe {
+        padding-left: 20px;
     }
 }

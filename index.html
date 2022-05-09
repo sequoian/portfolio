@@ -15,76 +15,103 @@
           Hello, world! I’m Zach, and I love programming. I’m a lifelong learner and spend my free time expressing myself through software development. I’ve spent years honing my craft, so check out my favorite projects below to see what I can do.
         </p>
       </div>
-
-      <h2>Personal Projects</h2>
       <div class="project">
         <h3>Froggy Swing</h3>
-        <iframe src="https://www.youtube.com/embed/Joq80JVhMoA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p>Froggy Swing is my first fully featured game. I implemented everything myself, including programming, design, art, and sound. I wanted to make something small in scope so I could experience the full development cycle while focusing on polish. It was developed in Unity and coded in C#. </p>
-        <p>Highlights include:</p>
-        <ul>
-          <li>Movement mechanics that add a twist to the classic Endless Runner <a href="https://github.com/sequoian/froggy-swing-public/blob/master/Player.cs">[Player.cs]</a></li>
-          <li>Menu system that can dynamically switch between being controlled by a gamepad, keyboard, or mouse <a href="https://github.com/sequoian/froggy-swing-public/blob/master/MouseMode.cs">[MouseMode.cs]</a></li>
-          <li>Custom object pool to reuse the obstacles <a href="https://github.com/sequoian/froggy-swing-public/blob/master/ObjectPool.cs">[ObjectPool.cs]</a></li>
-        </ul>
-        <a class="btn btn-primary" href="https://sequoian.itch.io/froggy-swing?password=employerview">Download Game</a>
+        <div class="project-content">
+          <div class="column">
+            <iframe src="https://www.youtube.com/embed/Joq80JVhMoA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="column">
+            <p>Froggy Swing is my first fully featured game. I implemented everything myself, including programming, design, art, and sound. I wanted to make something small in scope so I could experience the full development cycle while focusing on polish. It was developed in Unity and coded in C#. </p>
+          
+            <p>Highlights include:</p>
+            <ul>
+              <li>Movement mechanics that add a twist to the classic Endless Runner <a href="https://github.com/sequoian/froggy-swing-public/blob/master/Player.cs">[Player.cs]</a></li>
+              <li>Menu system that can dynamically switch between being controlled by a gamepad, keyboard, or mouse <a href="https://github.com/sequoian/froggy-swing-public/blob/master/MouseMode.cs">[MouseMode.cs]</a></li>
+              <li>Custom object pool to reuse the obstacles <a href="https://github.com/sequoian/froggy-swing-public/blob/master/ObjectPool.cs">[ObjectPool.cs]</a></li>
+            </ul>
+            <a class="btn btn-primary" href="https://sequoian.itch.io/froggy-swing?password=employerview">Download Game</a>
+          </div>
+        </div>
       </div>
       <div class="project">
         <h3>Grapple Gear</h3>
-        <iframe src="https://www.youtube.com/embed/u3pKDbO2j7Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p>With Grapple Gear, I wanted to create a platformer that felt great to play. During development, I learned a lot about dividing complex and intertwined gameplay logic into more manageable components. This was my first major Unity project, and I even tried my hand and sound design and music composition.</p>
-        <p>Highlights include:</p>
-        <ul>
-          <li>Precise player collision for pixel-perfect platforming <a href="https://github.com/sequoian/grapple-gear-public/blob/master/Controller2D.cs">[Controller2D.cs]</a></li>
-          <li>Asynchronous scene streaming and management <a href="https://github.com/sequoian/grapple-gear-public/blob/master/GameManager.cs">[GameManager.cs]</a></li>
-          <li>Complex player state management via state machine <a href="https://github.com/sequoian/grapple-gear-public/blob/master/Player.cs">[Player.cs]</a></li>
-        </ul>
-        <a class="btn btn-primary" href="https://sequoian.itch.io/grapple-gear?password=employerview">Download Game</a>
+        <div class="project-content">
+          <div class="column">
+            <iframe src="https://www.youtube.com/embed/u3pKDbO2j7Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="column">
+            <p>With Grapple Gear, I wanted to create a platformer that felt great to play. During development, I learned a lot about dividing complex and intertwined gameplay logic into more manageable components. This was my first major Unity project, and I even tried my hand and sound design and music composition.</p>
+            <p>Highlights include:</p>
+            <ul>
+              <li>Precise player collision for pixel-perfect platforming <a href="https://github.com/sequoian/grapple-gear-public/blob/master/Controller2D.cs">[Controller2D.cs]</a></li>
+              <li>Asynchronous scene streaming and management <a href="https://github.com/sequoian/grapple-gear-public/blob/master/GameManager.cs">[GameManager.cs]</a></li>
+              <li>Complex player state management via state machine <a href="https://github.com/sequoian/grapple-gear-public/blob/master/Player.cs">[Player.cs]</a></li>
+            </ul>
+            <a class="btn btn-primary" href="https://sequoian.itch.io/grapple-gear?password=employerview">Download Game</a>
+          </div>
+        </div>
       </div>
       <div class="project">
         <h3>Game Engine</h3>
-        <iframe src="https://www.youtube.com/embed/rrz8zkYpiGo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p>After reading Game Engine Architecture, I felt compelled to apply what I learned and make my own 3D game engine. Written entirely in C++, I followed many industry best practices to create an engine that is fast and efficient. In addition, I developed a small game to make sure I had created all the necessary features and that they all worked together.</p>
-        <p>Highlights include:</p>
-        <ul>
-          <li>An efficient and custom Entity Component System <a href="https://github.com/sequoian/game-engine/blob/master/Source/Entity.h">[Entity.h]</a> | <a href="https://github.com/sequoian/game-engine/blob/master/Source/ComponentSystem.h">[ComponentSystem.h]</a></li>
-          <li>A pool structure allowing for fast iteration of objects through contiguous memory <a href="https://github.com/sequoian/game-engine/blob/master/Source/CompactPool.h">[CompactPool.h]</a></li>
-          <li>Rendering through direct use of the DirectX 11 API <a href="https://github.com/sequoian/game-engine/blob/master/Source/Graphics.cpp">[Graphics.cpp]</a></li>
-          <li>Custom HLSL shader implementing Phong Shading <a href="https://github.com/sequoian/game-engine/blob/master/Source/Shaders/tutorial6.hlsl">[tutorial6.hlsl]</a></li>
-          <li>Physics using the Bullet Physics Engine API <a href="https://github.com/sequoian/game-engine/blob/master/Source/Physics.cpp">[Physics.cpp]</a></li>
-          <li>A small platformer combining all the features of the engine <a href="https://github.com/sequoian/game-engine/blob/master/Source/ThirdPersonApp.h">[ThirdPersonApp.h]</a></li>
-        </ul>
-        <a class="btn btn-primary" href="https://github.com/sequoian/game-engine">Full Source Code</a>
-        <a class="btn btn-primary" href="https://sequoian.itch.io/game-engine-platformer?password=employerview">Download Demo</a>
+        <div class="project-content">
+          <div class="column">
+            <iframe src="https://www.youtube.com/embed/rrz8zkYpiGo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="column">
+            <p>After reading Game Engine Architecture, I felt compelled to apply what I learned and make my own 3D game engine. Written entirely in C++, I followed many industry best practices to create an engine that is fast and efficient. In addition, I developed a small game to make sure I had created all the necessary features and that they all worked together.</p>
+            <p>Highlights include:</p>
+            <ul>
+              <li>An efficient and custom Entity Component System <a href="https://github.com/sequoian/game-engine/blob/master/Source/Entity.h">[Entity.h]</a> | <a href="https://github.com/sequoian/game-engine/blob/master/Source/ComponentSystem.h">[ComponentSystem.h]</a></li>
+              <li>A pool structure allowing for fast iteration of objects through contiguous memory <a href="https://github.com/sequoian/game-engine/blob/master/Source/CompactPool.h">[CompactPool.h]</a></li>
+              <li>Rendering through direct use of the DirectX 11 API <a href="https://github.com/sequoian/game-engine/blob/master/Source/Graphics.cpp">[Graphics.cpp]</a></li>
+              <li>Custom HLSL shader implementing Phong Shading <a href="https://github.com/sequoian/game-engine/blob/master/Source/Shaders/tutorial6.hlsl">[tutorial6.hlsl]</a></li>
+              <li>Physics using the Bullet Physics Engine API <a href="https://github.com/sequoian/game-engine/blob/master/Source/Physics.cpp">[Physics.cpp]</a></li>
+              <li>A small platformer combining all the features of the engine <a href="https://github.com/sequoian/game-engine/blob/master/Source/ThirdPersonApp.h">[ThirdPersonApp.h]</a></li>
+            </ul>
+            <a class="btn btn-primary" href="https://github.com/sequoian/game-engine">Full Source Code</a>
+            <a class="btn btn-primary" href="https://sequoian.itch.io/game-engine-platformer?password=employerview">Download Demo</a>
+          </div>
+        </div>
       </div>
       <div class="project">
         <h3>Flashcards</h3>
-        <iframe src="https://www.youtube.com/embed/YjzQO-xjxvA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p>This full-stack web application is a result of several months of intensive web development study. I wanted to show off my skills with this project, applying everything I learned while creating something that others would find useful. I created a fully featured flashcards app that allows multiple users to study and share their creations.</p>
-        <p>Highlights include:</p>
-        <ul>
-          <li>Client powered by the React framework for fast, organized code <a href="https://github.com/sequoian/flashcards/blob/master/react/src/js/DeckForm.js">[DeckForm.js]</a></li>
-          <li>Server built on Node.js with a focus on security <a href="https://github.com/sequoian/flashcards/blob/master/server/routes/deck-merge.js">[deck-merge.js]</a></li>
-          <li>Data is stored in a Postgresql database <a href="https://github.com/sequoian/flashcards/blob/master/server/database.js">[database.js]</a></li>
-          <li>Profile creation, authentication, and encryption <a href="https://github.com/sequoian/flashcards/blob/master/server/routes/signup.js">[signup.js]</a></li>
-        </ul>
-        <a class="btn btn-primary" href="https://github.com/sequoian/flashcards">Full Source Code</a>
+        <div class="project-content">
+          <div class="column">
+            <iframe src="https://www.youtube.com/embed/YjzQO-xjxvA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="column">
+            <p>This full-stack web application is a result of several months of intensive web development study. I wanted to show off my skills with this project, applying everything I learned while creating something that others would find useful. I created a fully featured flashcards app that allows multiple users to study and share their creations.</p>
+            <p>Highlights include:</p>
+            <ul>
+              <li>Client powered by the React framework for fast, organized code <a href="https://github.com/sequoian/flashcards/blob/master/react/src/js/DeckForm.js">[DeckForm.js]</a></li>
+              <li>Server built on Node.js with a focus on security <a href="https://github.com/sequoian/flashcards/blob/master/server/routes/deck-merge.js">[deck-merge.js]</a></li>
+              <li>Data is stored in a Postgresql database <a href="https://github.com/sequoian/flashcards/blob/master/server/database.js">[database.js]</a></li>
+              <li>Profile creation, authentication, and encryption <a href="https://github.com/sequoian/flashcards/blob/master/server/routes/signup.js">[signup.js]</a></li>
+            </ul>
+            <a class="btn btn-primary" href="https://github.com/sequoian/flashcards">Full Source Code</a>
+          </div>
+        </div>
       </div>
       <div class="project">
         <h3>Red Cube Guy</h3>
-        <iframe src="https://www.youtube.com/embed/70XrYW1pQCo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p>Back in 2015, using C++ with SDL2, I plunged head first into my first non-trivial game. In the process, I ended up developing an ad hoc game engine and level editor. The code may be crude, but I’m proud of what I was able to accomplish.</p>
-        <p>Highlights include:</p>
-        <ul>
-          <li>AABB collision detection and resolution <a href="https://github.com/sequoian/first-platformer/blob/main/Game/CollisionDetector.cpp">[CollisionDetector.cpp]</a> | <a href="https://github.com/sequoian/first-platformer/blob/main/Game/CollisionHandler.cpp">[CollisionHandler.cpp]</a></li>
-          <li>Factory for creating game objects <a href="https://github.com/sequoian/first-platformer/blob/main/Game/EntityFactory.cpp">[EntityFactory.cpp]</a></li>
-          <li>A custom level editor for fast level design <a href="https://github.com/sequoian/first-platformer/blob/main/LevelEditor/Canvas.cpp">[Canvas.cpp]</a></li>
-        </ul>
-        <a class="btn btn-primary" href="https://github.com/sequoian/first-platformer">Full Source Code</a>
-        <a class="btn btn-primary" href="https://sequoian.itch.io/red-cube-guy?password=employerview">Download Game</a>
+        <div class="project-content">
+          <div class="column">
+            <iframe src="https://www.youtube.com/embed/70XrYW1pQCo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="column">
+            <p>Back in 2015, using C++ with SDL2, I plunged head first into my first non-trivial game. In the process, I ended up developing an ad hoc game engine and level editor. The code may be crude, but I’m proud of what I was able to accomplish.</p>
+            <p>Highlights include:</p>
+            <ul>
+              <li>AABB collision detection and resolution <a href="https://github.com/sequoian/first-platformer/blob/main/Game/CollisionDetector.cpp">[CollisionDetector.cpp]</a> | <a href="https://github.com/sequoian/first-platformer/blob/main/Game/CollisionHandler.cpp">[CollisionHandler.cpp]</a></li>
+              <li>Factory for creating game objects <a href="https://github.com/sequoian/first-platformer/blob/main/Game/EntityFactory.cpp">[EntityFactory.cpp]</a></li>
+              <li>A custom level editor for fast level design <a href="https://github.com/sequoian/first-platformer/blob/main/LevelEditor/Canvas.cpp">[Canvas.cpp]</a></li>
+            </ul>
+            <a class="btn btn-primary" href="https://github.com/sequoian/first-platformer">Full Source Code</a>
+            <a class="btn btn-primary" href="https://sequoian.itch.io/red-cube-guy?password=employerview">Download Game</a>
+          </div>
+        </div>
       </div>
-      <h2>Contact</h2>
-      <p>Want to make something awesome together? Reach out to me at my <a href="mailto:zach.askins@gmail.com">email</a> or my <a href="https://www.linkedin.com/in/zachary-askins/">LinkedIn</a> page.</p>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
