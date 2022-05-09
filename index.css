@@ -2,6 +2,10 @@
     margin-bottom: 50px;
 }
 
+.project {
+    /* background-color: #f8f8f8; */
+}
+
 #face {
     max-width: 100%;
     border-radius: 50%;
@@ -15,10 +19,37 @@ iframe {
     aspect-ratio: 16 / 9;
     max-width: 560px;
     max-height: 315px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.btn {
+.contacts {
+    display: block;
+    text-align: center;
+}
+
+.contacts img {
+    width: 40px;
+    margin: 0 10px;
+    filter: invert(13%) sepia(92%) saturate(4133%) hue-rotate(175deg) brightness(94%) contrast(101%);
+}
+
+.contacts img:hover {
+    filter: invert(21%) sepia(16%) saturate(4788%) hue-rotate(149deg) brightness(94%) contrast(101%);
+}
+
+.btn-primary {
     margin-bottom: 5px;
+    background-color: #006066;
+    border-color: #006066;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #004c50;
+}
+
+b {
+    color: #006066;
 }
 
 @media (min-width: 768px) { 
@@ -53,6 +84,6 @@ iframe {
     }
 
     iframe {
-        padding-left: 20px;
+        margin-left: 20px;
     }
 }
