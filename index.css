@@ -7,6 +7,10 @@
     padding: 40px 0;
 }
 
+h2 {
+    margin-bottom: 20px;
+}
+
 #face {
     max-width: 100%;
     border-radius: 50%;
@@ -55,6 +59,12 @@ b {
     color: #006066;
 }
 
+#other .column {
+    margin: 30px 0;
+    padding: 0 15px;
+    border-left: 5px solid #006066;
+}
+
 @media (min-width: 768px) { 
     #hero {
         display: flex;
@@ -86,6 +96,10 @@ b {
     .project-content {
         display: flex;
         flex-direction: row-reverse;
+    }
+
+    #other .project-content {
+        flex-direction: row;
     }
 
     .column {
